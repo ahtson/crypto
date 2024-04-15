@@ -1,5 +1,5 @@
 # crypto
-**crypto** is a simple library for AES, ECIES and ECDSA for Python.
+**crypto** is a simple cryptographic library for Python.
 
 ## Functionality
 
@@ -146,5 +146,5 @@ assert curve.recover(signature, data) == public_key  # Would raise on error
 
 ## Running tests
 
-Install it pytest and run `python3 -m pytest
+Install pytest and run `python3 -m pytest
 test` in repository.
